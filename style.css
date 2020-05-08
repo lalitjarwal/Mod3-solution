@@ -1,0 +1,44 @@
+.title{
+    height: auto;
+    text-align: center;
+    margin-bottom: 3vh;
+    color: black;
+}
+li{
+    border-bottom: solid;
+}
+.nav-item :hover{
+    color: black;
+    background-color: white;
+}
+.navbaritems{
+    background-color: azure; 
+    width: 100%;
+    color: black;
+}
+.navbar{
+    padding:0;
+}
+#menu{
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 10vh;
+}
+.container{
+    border:solid;
+    background-color: grey;
+    text-align: justify;
+    width: 400px;
+    height: auto;
+    margin-bottom: 10vh;
+    display:block;
+}
+div>p{
+    color: black;
+}
+@media screen and ( min-width:762px){
+.visible-xs{
+    display:none;
+
+}
+}
